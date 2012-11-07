@@ -1,0 +1,61 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: purple;
+}
+
+#sideWrapper{
+	width:200px;
+	position: absolute;
+	height: 100%;
+}
+#navSide{
+	background: rgba(255,255,255,0.5);
+	height:60%;
+	width: 100%;
+	overflow: auto;
+	border-bottom-right-radius: 25px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: black 0px 0px 10px 1px;
+}
+#nviwrapper{
+	width: 100%;
+}
+#navSide .nvmenuItem{
+	
+	transition: box-shadow 0.3s ease;
+	-webkit-transition: box-shadow 0.3s ease;
+	-o-transition: box-shadow 0.3s ease;
+	-moz-transition: box-shadow 0.3s ease;
+
+	color: white;
+	display: block;
+	height: 48px;
+	width: 100%;
+	padding: 1px 0;
+	border-bottom: 1px solid rgba(255,255,255,0);
+}
+#navSide .nvmenuItem.selected{
+	background: rgba(255,255,255,0.5);
+}
+#navSide .nvmenuItem img{
+	vertical-align: middle;
+}
+#navSide .nvmenuItem span{
+	margin-left: 2px;
+	line-height: 48px;
+}
+
+#navSide .nvmenuItem:hover{
+	box-shadow: rgba(255,255,255,1) 0 0 10px 0px inset;
+}
+
+.expander{
+	
+}
